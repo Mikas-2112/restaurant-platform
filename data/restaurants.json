@@ -1,0 +1,89 @@
+{
+  "restaurants": [
+    {
+      "id": "garden-kitchen",
+      "name": "The Garden Kitchen",
+      "slug": "the-garden-kitchen",
+      "description": "Fresh dishes made for you.",
+      "location": "Baku, Azerbaijan",
+      "currency": "£"
+    }
+  ],
+  "categories": [
+    {
+      "id": "starters",
+      "restaurantId": "garden-kitchen",
+      "name": "Starters",
+      "position": 1
+    },
+    {
+      "id": "mains",
+      "restaurantId": "garden-kitchen",
+      "name": "Mains",
+      "position": 2
+    },
+    {
+      "id": "desserts",
+      "restaurantId": "garden-kitchen",
+      "name": "Desserts",
+      "position": 3
+    },
+    {
+      "id": "drinks",
+      "restaurantId": "garden-kitchen",
+      "name": "Drinks",
+      "position": 4
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "restaurantId": "garden-kitchen",
+      "categoryId": "starters",
+      "name": "Burrata & Tomatoes",
+      "price": 14,
+      "description": "Creamy burrata, heirloom tomatoes, basil and olive oil.",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1000&q=80",
+      "available": true
+    },
+    {
+      "id": "2",
+      "restaurantId": "garden-kitchen",
+      "categoryId": "starters",
+      "name": "Beef Carpaccio",
+      "price": 18,
+      "description": "Thinly sliced beef, parmesan, rocket and lemon.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80",
+      "available": true
+    },
+    {
+      "id": "3",
+      "restaurantId": "garden-kitchen",
+      "categoryId": "mains",
+      "name": "Grilled Fillet",
+      "price": 32,
+      "description": "Premium beef fillet with roasted vegetables and jus.",
+      "image": "https://images.unsplash.com/photo-1546964124-0cce460f38ef?auto=format&fit=crop&w=1000&q=80",
+      "available": true
+    },
+    {
+      "id": "4",
+      "restaurantId": "garden-kitchen",
+      "categoryId": "mains",
+      "name": "Truffle Pasta",
+      "price": 24,
+      "description": "Fresh pasta, parmesan, cream and black truffle.",
+      "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1000&q=80",
+      "available": false
+    },
+    {
+      "id": "5",
+      "restaurantId": "garden-kitchen",
+      "categoryId": "starters",
+      "name": "Caesar Salad",
+      "price": 12,
+      "description": "Crisp lettuce, parmesan, croutons and Caesar dressing.",
+      "available": true
+    }
+  ]
+}
